@@ -1,0 +1,799 @@
+/* ************* main css for all the pages ************* */
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(-90deg, #D6FFDE, white);
+}
+* {
+    font-family: 'Questrial', sans-serif;
+}
+
+
+.header {
+    width: 100%; 
+    height: auto;
+    padding-top: 90px;
+    padding-bottom: 50px;
+    background: url(https://ak3.picdn.net/shutterstock/videos/4710611/thumb/1.jpg) no-repeat center center; background-size: cover;
+    text-align: center;
+}
+
+.header .container {
+    position: relative;
+    top: 200px;
+}
+
+.header h1 {
+    color: white;
+    letter-spacing: 30px;
+    line-height: 80px;
+    font-size: 60px;
+    margin-top:80px;
+    text-align: center;
+}
+
+.header img {
+    width: 80px;
+    padding: 0px;
+}
+
+.header img:hover .overlay {
+    transform: scale(1);
+    width: 100%;
+}
+
+.header h2 {
+    color: white;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 10px;
+    line-height: 10px;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.button {  
+    align-content: center;
+    color: #fff;
+    font-size: 20px;
+    background: #021C1F;
+    padding: 15px 40px;
+    text-decoration: none;
+    transition: background .5s;
+}
+
+.navbar {
+    background: #021C1F;
+    height: 60px;
+    width: 100%;
+    align-content: center;
+}
+
+.navbar ul {
+    height: 70px;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+}
+
+.navbar ul li {
+    vertical-align: middle;
+    display: inline-block;
+    list-style: none;
+    padding-top: 10px;
+    text-decoration: none;
+    width: 13%;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #fff;
+    height: 50px;
+    transition: background .5s;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.navbar ul li a:visited {
+    color: #fff;
+}
+
+.navbar ul li a:active {
+    color: #fff;
+}
+
+
+.button:hover,.navbar ul li:hover {
+    background: #053B40;
+    cursor: pointer;
+    transition: background .5s;
+}
+
+/* ************* end of header ************* */
+/* ************* home.html ************* */
+
+.home1{
+    width: 100%;
+    display: block;
+    justify-content: center;
+}
+
+.home2 {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+.home2 p {
+    letter-spacing: 3px;
+    line-height: 50px;
+    font-size: 15px;
+}
+
+.homevideo {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+/* ************* end of home.html ************* */
+/* ************* about.html ************* */
+
+.textabout{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.textabout .moretext{
+    width: 80%;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+
+/* ************* end of about.html ************* */
+/* ************* events.html ************* */
+
+.Events {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.Events .Dates {
+    width: 40%;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-size: 15px;
+}
+.month {
+    padding: 40px 40px;
+    width: 40%;
+    height: auto;
+    background: #053B40;
+    border-radius: 5px;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+
+}
+
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+.month .weekdays {
+    margin: px;
+    padding: 5px 2px;
+    background-color: #ddd;
+}
+
+.month .weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: black;
+    justify-content: center;
+}
+
+.month .days {
+    padding: 2px 2px;
+    background: #eee;
+    margin: 5px;
+}
+
+.month .days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: black;
+}
+
+.month .days li .active {
+    padding: 4px;
+    background: #021C1F;
+    color: white !important
+}
+
+
+/* ************* end of events.html ************* */
+/* ************* contact.html ************* */
+
+.contactcontainer {
+    width: 100%;
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+
+.contactcontainer .contacts {
+    width: 40%;
+    display: flex;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.contactcontainer img{
+    height: 180px;
+}
+
+/* ************* end of contacts.html ************* */
+/* ************* rules.html ************* */
+
+.rulelist {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    justify-content: center;
+    display: flex;
+}
+
+.rulelist .intro {
+    display: block;
+    text-align: center;
+}
+
+.lists {
+    width: 100%;
+    display: flex;
+    justify-content: center;    
+}
+
+.lists .underlists {
+    width: 80%;
+    padding-bottom: 50px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* ************* end of rules.html ************* */
+/* ************* gameplan.html ************* */
+
+
+.table {
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    display: block;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.table h4 {
+    text-align: center;
+    line-height: 50px;
+}
+
+.table .randnote {
+    width: 100%;
+    text-align: center;
+}
+
+.table .table1 {
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    justify-content: center;
+    display: flex;
+}
+
+#First {
+    align-content: center;
+    width: 80%;
+
+}
+
+#First th {
+    text-align: center;
+    padding-top: 50px;
+    text-decoration: underline;
+}
+
+
+#First td {
+    text-align: center;
+}
+
+.mapping {
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.table .Table2 {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.table .Table2 a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.table .Table2 .maps{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.Table2 th {
+    text-align: left;
+    width: 50%;
+}
+
+.Table2 td {
+    width: 50%;
+    text-decoration: none;
+}
+
+.Last{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Last .para{
+    width: 80%;
+    display: block;
+    justify-content: center;
+}
+
+
+.Table3 {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: center;
+    display: flex;
+}
+
+.Table3 th {
+    text-align: left;
+    width: 50%;
+}
+
+.Table3 td {
+    width: 50%;
+}
+
+/* ************* end of gameplan.html ************* */
+/* ************* registration.html ************* */
+
+
+.form {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+
+
+.form h4 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+.fillment {
+    width: 100%;
+    margin: 10px;
+    line-height: 2.8;
+    border-radius: 5px;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+.form input {    
+    flex-grow: 1;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.form .fillment .intro span {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.form .fillment .intro label {
+    width: 90%;
+    display: flex;
+}
+
+.form .fillment .address span {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.form .fillment .address label {
+    width: 90%;
+    display: flex;
+}
+
+.form .fillment .place span {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.form .fillment .place label {
+    width: 90%;
+    display: flex;
+}
+
+.form .fillment .birth span {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.form .fillment .birth label {
+    width: 90%;
+    display: flex;
+}
+
+.form .fillment .gendi{
+    width: 90%;
+    display: flex;
+    justify-content: center:    
+}
+
+.form .fillment .gendi span {
+    width: 30%;
+    text-align: center;
+}
+
+.form .fillment .parent span {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.form .fillment .parent label {
+    width: 90%;
+    display: flex;
+}
+
+.form .fillment .contactph span {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.form .fillment .contactph label {
+    width: 90%;
+    display: flex;
+}
+
+.form .fillment .contactem span {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.form .fillment .contactem label {
+    width: 90%;
+    display: flex;
+}
+
+/*---------------------------------------*/
+/* registration html DROPDOWN SCHOOLSTUFF */
+
+.form .fillment .schoolstuff {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.fclose {
+    position: relative;
+}
+.fclosebutt {
+    background-color: #021C1F;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+.fclosecont {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.fclosecont a {
+    color: black;
+    padding: 8px 8px;
+    text-decoration: none;
+    display: block;
+}
+.fclosecont a:hover {
+    background-color: #0A767F;
+}
+.fclose:hover .fclosecont {
+    display: block;
+}
+.fclose:hover .fclosebutt {
+    background-color: #053B40;
+}
+/*--------------------------------*/
+
+.sclose {
+    position: relative;
+}
+.sclosebutt {
+    background-color: #021C1F;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+.sclosecont {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.sclosecont a {
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+}
+.sclosecont a:hover {
+    background-color: #0A767F;
+}
+.sclose:hover .sclosecont {
+    display: block;
+}
+.sclose:hover .sclosebutt {
+    background-color: #053B40;
+}
+/*---------------------------------*/
+.gradedrop {
+    position: relative;
+    display: block;
+}
+.gradebutt {
+    background-color: #021C1F;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+.gradecont {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.gradecont a {
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+}
+.gradecont a:hover {
+    background-color: #0A767F;
+}
+.gradedrop:hover .gradecont {
+    display: block;
+}
+.gradedrop:hover .gradebutt {
+    background-color: #053B40;
+}
+
+/*--------------------------------*/
+.form .fillment .tableschool {
+    width: 60%;
+    display: block;
+    justify-content: center;
+    justify-content: space-around
+}
+
+.jsize {
+    position: relative;
+}
+.jsizebutt {
+    background-color: #021C1F;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+.jsizecont {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.jsizecont a {
+    color: black;
+    padding: 5px 8px;
+    text-decoration: none;
+    display: block;
+}
+.jsizecont a:hover {
+    background-color: #0A767F;
+}
+.jsize:hover .jsizecont {
+    display: block;
+}
+.jsize:hover .jsizebutt {
+    background-color: #053B40;
+}
+
+.ssize {
+    position: relative;
+}
+.ssizebutt {
+    background-color: #021C1F;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+.ssizecont {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.ssizecont a {
+    color: black;
+    padding: 5px 8px;
+    text-decoration: none;
+    display: block;
+}
+.ssizecont a:hover {
+    background-color: #0A767F;
+}
+.ssize:hover .ssizecont {
+    display: block;
+}
+.ssize:hover .ssizebutt {
+    background-color: #053B40;
+}
+
+/*--------------------------------*/
+.form .fillment .positions {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around
+}
+
+.form .fillment .normally{
+    width: 40%;
+    text-align: center;
+}
+
+.form .fillment .normally .positions1 tr {
+    text-align: center;
+}
+.form .fillment .wantplay{
+    width: 40%;
+    text-align: center;
+}
+
+.form .fillment .wantplay .positions1 tr {
+    text-align: center;
+}
+
+/*--------------------------------*/
+
+.positions1{
+    width: 57%;
+    display: flex;
+}
+.positions2{
+    width: 57%;
+    display: flex;
+}
+.form .fillment .permission{
+    width: 100%;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+}
+.form .fillment .pertext {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.form .fillment .signature span {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.form .fillment .signature label {
+    width: 90%;
+    display: flex;
+}
+
+/* ************* end of registration.html ************* */
